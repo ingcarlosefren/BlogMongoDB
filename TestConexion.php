@@ -7,7 +7,7 @@ require 'vendor/autoload.php';
             $database=$connection ->BlogDB;
             $collection = $database->posts;
             $result = $collection->findOne();
-            echo 'Conexion Exitosa...';
+            echo 'Conexion Exitosa y activa...';
             //busqueda especifica
             $collection2 = (new MongoDB\Client('mongodb://cefa-user:7869097@150.136.170.184:27017/?authSource=cefa-data'))->BlogDB->posts;
             $distinct = $collection2->distinct('comments.author');
