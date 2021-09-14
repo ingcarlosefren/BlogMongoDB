@@ -31,7 +31,7 @@
       <div class="container">
         <nav class="blog-nav">
           <a class="blog-nav-item active" href="index.php">Home</a>
-          <a class="blog-nav-item" href="api/index.php">API</a>
+          <!-- <a class="blog-nav-item" href="api/index.php">API</a> -->
         </nav>
       </div>
     </div>
