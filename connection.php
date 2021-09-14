@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
     try{
         // Setup MongoDB connection
-        $connection = new MongoDB\Client('mongodb://cefa-user:7869097@150.136.170.184:27017/?authSource=cefa-data');
+        $connection = new MongoDB\Client('mongodb://cefa-user:*******@***********:27017/?authSource=cefa-data');
 
         /**********
         ** YOUR CODE HERE:
